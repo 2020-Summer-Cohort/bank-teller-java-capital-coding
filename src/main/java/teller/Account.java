@@ -20,19 +20,18 @@ public class Account {
         return accountType;
     }
 
+    public Double getAccountBalance(){return accountBalance;}
 
-    public void deposit(double amountToDeposit) {
+    public void depositMoney(double amountToDeposit) {
         accountBalance += amountToDeposit;
     }
 
-    public void withdrawal(double amountToWithdrawl) {
-        accountBalance -= amountToWithdrawl;
+    public void withdrawMoney(double amountToWithdraw) {
+        accountBalance -= amountToWithdraw;
     }
 
-    public double checkAccountBalance() {
-            return accountBalance;
 
-    }
+
 
 
 }
